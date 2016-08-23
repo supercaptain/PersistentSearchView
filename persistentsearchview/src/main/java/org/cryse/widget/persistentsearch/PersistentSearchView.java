@@ -86,7 +86,7 @@ public class PersistentSearchView extends RevealViewGroup {
     private String mSearchEditTextHint;
     private int mSearchEditTextHintColor;
     private SearchSuggestionsBuilder mSuggestionBuilder;
-    private SearchItemAdapter mSearchItemAdapter;
+    public SearchItemAdapter mSearchItemAdapter;
     private ArrayList<SearchItem> mSearchSuggestions;
     private KeyboardView mCustomKeyboardView;
     private boolean showCustomKeyboard;
